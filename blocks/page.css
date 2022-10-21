@@ -1,0 +1,122 @@
+.page {
+  max-width: 100%;
+  min-height: 100vh;
+  background: rgb(153, 0, 247);
+  background: linear-gradient(
+    180deg,
+    rgba(153, 0, 247, 1) 15%,
+    rgba(136, 20, 189, 1) 93%
+  );
+}
+
+.bizzle__header {
+  margin: 0;
+  font-family: "Creepster", cursive;
+  color: transparent;
+  -webkit-text-stroke: 5px #ff9100;
+
+  text-align: center;
+}
+
+.bizzle__subtitle {
+  margin: 0;
+  font-family: "Creepster", cursive;
+
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 5px #ff9100;
+}
+
+.bizzle__bands {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  list-style: none;
+}
+
+.astro {
+  rotate: 30deg;
+}
+
+.photoshoot {
+  display: flex;
+  flex-direction: column;
+}
+
+.bizzle__infos {
+  font-family: "Merienda", cursive;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.bizzle__info {
+  margin: 0;
+}
+
+@media screen and (max-width: 1680px) {
+  .bizzle__header {
+    font-size: 300px;
+  }
+
+  .bizzle__subtitle {
+    font-size: 120px;
+  }
+  .band__logo {
+    width: 400px;
+    height: 225px;
+  }
+
+  .photoshoot {
+    height: 110px;
+  }
+
+  .bizzle__infos {
+    margin-top: 160px;
+    font-size: 80px;
+
+    max-width: 2700px;
+  }
+  .bizzle__info:first-child {
+    margin-right: 150px;
+  }
+
+  .bizzle__info:last-child {
+    margin-top: 150px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .bizzle__header {
+    font-size: 200px;
+  }
+
+  .bizzle__subtitle {
+    font-size: 90px;
+  }
+  .band__logo {
+    width: 310px;
+    height: 191px;
+  }
+
+  .photoshoot {
+    height: 0px;
+  }
+
+  .bizzle__infos {
+    margin-top: 160px;
+    font-size: 60px;
+
+    max-width: 980px;
+  }
+  .bizzle__info:first-child {
+    margin-right: 60px;
+  }
+
+  .bizzle__info:last-child {
+    margin-top: 100px;
+    padding-bottom: 100px;
+  }
+}
